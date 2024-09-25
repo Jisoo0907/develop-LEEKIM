@@ -1,0 +1,70 @@
+.component {
+  width: 90rem;
+  padding: 5rem 0;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.mainBanner {
+  max-width: 78rem;
+  margin: 0 auto;
+  margin-bottom: 4.5rem;
+
+  .bannerTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .bannerSub {
+    margin: 0 0;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 800;
+  }
+}
+
+.subBanner {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 78rem;
+  background-color: var(--mainblue);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem;
+
+  .subBannerText {
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0.625rem;
+    padding-left: 2.25rem;
+    margin: 1.5rem;
+    margin-right: 20%;
+  }
+
+  .bannerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20.5625rem;
+
+    margin-right: 2.5rem;
+    padding: 22 4.5rem;
+    height: 5.125rem;
+    background-color: var(--white);
+    color: var(--mainblue);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 1.875rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  }
+}

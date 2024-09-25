@@ -1,0 +1,100 @@
+.component {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  width: 100%;
+
+  margin-bottom: 8rem;
+
+  .bigSlogan {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 0.5rem;
+
+    width: 90%;
+    max-width: 90rem;
+    min-width: 67.5rem;
+
+    margin: 2.5rem 0 4rem 0;
+
+    font-size: 5rem;
+    font-weight: 700;
+
+    .lineWrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+      width: 100%;
+
+      .sloganImgWrapper {
+        overflow: hidden;
+        position: relative;
+        width: 30%;
+        aspect-ratio: 1/0.264;
+        border-radius: 999rem;
+
+        .sloganImg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        .sloganImgFilter {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(#3a39ff, 0.3);
+        }
+      }
+    }
+
+    .anker {
+      position: relative;
+
+      .star {
+        position: absolute;
+        transform: translate(-50%, -50%);
+      }
+
+      .starA {
+        top: 0;
+        right: -5%;
+      }
+
+      .starB {
+        top: -15%;
+        right: -15%;
+      }
+
+      .starC {
+        top: 20%;
+        right: -35%;
+      }
+
+      .starD {
+        bottom: -30%;
+        left: -45%;
+      }
+    }
+  }
+
+  .smallSlogan {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    font-size: 1.25rem;
+
+    p {
+      margin: 0;
+      white-space: nowrap;
+    }
+  }
+}

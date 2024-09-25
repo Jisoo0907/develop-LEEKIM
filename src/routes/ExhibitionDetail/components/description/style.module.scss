@@ -1,0 +1,38 @@
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .titleWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    .title {
+      white-space: pre-line;
+
+      max-width: 763px;
+      width: 90%;
+      margin: 0;
+      margin-left: 3px;
+      font-size: 60px;
+    }
+
+    .bookmarkCheckBox {
+      img {
+        width: 3rem;
+
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+  }
+
+  .description {
+    max-width: 763px;
+    font-size: 23px;
+    margin: 0;
+
+    white-space: pre-line;
+  }
+}

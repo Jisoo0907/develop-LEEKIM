@@ -1,0 +1,33 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--mainblue);
+  border-radius: 100px 100px 0px 0px;
+  width: 100%;
+  min-height: 2433px;
+  gap: 92px;
+
+  .text {
+    width: 1255px;
+    margin-top: 314px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    width: 1255px;
+    height: 412px;
+    border-radius: 50px;
+    background-color: var(--white);
+    gap: 82px;
+
+    img {
+      margin-left: 60px;
+      width: 230px;
+      height: 230px;
+    }
+  }
+}

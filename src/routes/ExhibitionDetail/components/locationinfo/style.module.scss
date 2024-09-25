@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 1.3rem;
+  }
+  h2 {
+    margin: 0;
+    margin-left: 15px;
+  }
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  width: 335px;
+
+  p {
+    white-space: pre-line;
+  }
+}
+
+.map {
+  margin-top: 8px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}

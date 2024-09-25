@@ -1,0 +1,100 @@
+.component {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2%;
+
+  width: 90%;
+  aspect-ratio: 1/0.6;
+  max-width: 90rem;
+  min-width: 67.5rem;
+
+  margin: 5rem 0 15rem 0;
+
+  img {
+    border: 1px solid var(--white);
+    border-radius: 2.5rem;
+  }
+
+  figcaption {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    color: white;
+
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .leftSide {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2%;
+
+    height: 100%;
+    width: 50%;
+
+    figure {
+      position: relative;
+      margin: 0;
+    }
+
+    .top {
+      height: 74%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(70%);
+      }
+    }
+
+    .bottom {
+      height: 24%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+      }
+    }
+  }
+
+  .rightSide {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2%;
+
+    height: 100%;
+    width: 50%;
+
+    figure {
+      position: relative;
+      margin: 0;
+    }
+
+    .top {
+      height: 44%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+      }
+
+      figcaption {
+        right: 10%;
+        text-align: right;
+      }
+    }
+
+    .bottom {
+      height: 54%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+      }
+    }
+  }
+}
